@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dish Discovery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Delius+Swash+Caps|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="float-grid.css" />
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="overlay">
+    <header role="banner"><h1>Dish Discovery</h1></header>
+    <main role="main">
+      <p class="tagline">Explore the world of cuisine</p>
+      <nav role="navigation">
+        <form action="#" class="js-search-form">
+          <fieldset>
+            <label class="question">Select a
+              <select class="js-query" >
+                <option class="unselected" value="">Food</option>
+                <option value="Beef">Beef</option>
+                <option value="Chicken">Chicken</option>
+                <option value="Desert">Dessert</option>
+                <option value="Lamb">Lamb</option>
+                <option value="Miscellaneous">Mixed</option>
+                <option value="Pasta">Pasta</option>
+                <option value="Pork">Pork</option>
+                <option value="Seafood">Seafood</option>
+                <option value="Side">Sides</option>
+                <option value="Starter">Starters</option>
+                <option value="Vegan">Vegan</option>
+                <option value="Vegetarian">Vegetarian</option>
+              </select>
+            </label>
+          </fieldset>
+          <fieldset>
+            <label class="question">and/or a
+              <select class="js-query-country">
+                <option class="unselected" value="">Country</option>
+                <option value="American">America</option>
+                <option value="British">Britain</option>
+                <option value="Canadian">Canada</option>
+                <option value="Chinese">China</option>
+                <option value="French">France</option>
+                <option value="Greek">Greece</option>
+                <option value="Indian">India</option>
+                <option value="Irish">Ireland</option>
+                <option value="Italian">Italy</option>
+                <option value="Jamaican">Jamaica</option>
+                <option value="Japanese">Japan</option>
+                <option value="Malaysian">Malaysia</option>
+                <option value="Mexican">Mexico</option>
+                <option value="Moroccan">Morocco</option>
+                <option value="Dutch">Netherlands</option>
+                <option value="Russian">Russia</option>
+                <option value="Spanish">Spain</option>
+                <option value="Thai">Thailand</option>
+                <option value="Vietnamese">Vietnam</option>
+              </select>
+            </label>
+          </fieldset>
+          <button aria-label="submit" class="button" type="submit">Discover</button>
+          <p class="subtitle">Powered by <a class="dark" href="https://www.themealdb.com">The Meal Database</a></p>
+        </form>
+      </nav>
+      <p class="error"></p>
+    </main>
+    <section hidden role="region">
+      <h2>  </h2>
+      <div class="append-results row" aria-live="polite">
+      
+
+
+      
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
+
+

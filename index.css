@@ -1,0 +1,148 @@
+* {
+ text-align: center;
+ font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  padding-top: 120px;
+  background-color: #6d4642;
+  font-size: 20px;
+}
+
+main, h1 {
+  color: white;
+}
+
+h1, h3 {
+  font-family: 'Delius Swash Caps', cursive;
+}
+
+.subtitle {
+  font-size: 15px;
+}
+
+.tagline {
+  font-size: 27px;
+  padding-bottom: 20px;
+  font-family: 'Delius Swash Caps', cursive;
+}
+
+h1 {
+  font-size: 70px;
+  line-height: 80%;
+  -webkit-margin-after: 0em;
+}
+
+fieldset {
+  border-width: 0px;
+  padding: 0px 0px 1em 0px;
+}
+
+.button {
+  background-color: #5f3e3b;
+  border: 0.05em solid #795855;
+  color: white;
+  padding: 10px 15px 15px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #b39390;
+}
+
+.lowerHeadings {
+  font-size: 30px;
+  padding: 0px 30px 45px 30px;
+}
+
+section {
+  background-color: white;
+}
+
+.section-padding {
+  padding: 30px 0px 50px 0px;
+}
+
+form {
+  padding: 0px 0px 100px 0px;
+//  max-width: 613px;
+  margin: 0 auto;
+}
+
+.select-food-left {
+  text-align: right;
+  padding: 0px 0px 20px 30px;
+}
+
+.country-center {
+  padding-bottom: 20px;
+}
+
+.button-right {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 32px;
+  width: 100%; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+button, select {
+  font-size: 18px;
+}
+
+a.dark:link, a.dark:visited {
+  color: white;
+}
+
+a.dark:hover {
+  color: lightgray;
+}
+
+a.light:link, a.light:visited {
+  color: gray;
+}
+
+a.light:hover, a.youtube:hover {
+  color: #6d4642;
+}
+
+a.youtube:link, a.youtube:visited {
+  color: hsla(0, 0%, 0%, 0.699);
+}
+
+a.youtube:hover {
+  color: black;
+}
+
+
+// Responsive-related
+
+.card {
+  border: 1px solid #E5E5E5;
+  margin-bottom: 20px;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-content {
+  padding: 15px 0px 40px 0px;
+}
+
+.card-content h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card-content p {
+  margin: 0.5em 0;
+}
