@@ -6,22 +6,34 @@ An app that introduces you to meals, recipes, and cuisines from around the world
 
 ## Screenshots
 
-![Screenshot 1](/dish-discovery/screenshots/ssrrrs1503664277.jpg "Logo Title Text 1")
+#### Desktop
 
-![Screenshot 2](dish-discovery/screenshots/ssrrrs1503664277.jpg "Logo Title Text 1")
+Home
 
-![Screenshot 3](screenshots/ssrrrs1503664277.jpg "Logo Title Text 1")
+![Home desktop](screenshots/1-desktop.jpg "Home desktop")
 
-<h2>Live Demo</h2>
-[I'm an inline-style link](https://www.google.com)
+Results
+
+![Results desktop](screenshots/2-desktop.jpg "Results desktop")
+
+#### Mobile
+
+Home
+
+![Home mobile](screenshots/1-mobile.jpg "Home mobile")
+
+Results
+
+![Results mobile](screenshots/2-mobile.jpg "Results mobile")
+
+## Live Demo
+[Link to Demo](https://jasoncristobal.github.io/dish-discovery)
 
 
-<h2>Technologies used</h2> 
+## Technologies used 
 
-<ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
-<li>jQuery</li>
-<li>AJAX</li>
-</ul>
+* HTML
+* CSS
+* JavaScript
+* jQuery
+* AJAX
