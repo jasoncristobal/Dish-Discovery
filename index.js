@@ -75,11 +75,11 @@ let description = null;
 
 function filterResult(mealData) {
   countItems++;
-  if (country !== '' && food === '' && `${mealData.meals[0].strCategory}` === "Desert") {
+  if (country !== '' && food === '' && `${mealData.meals[0].strCategory}` === "Dessert") {
     description = 'Dessert';
     printResult(mealData);
   }
-  else if (country !== '' && food === '' && `${mealData.meals[0].strCategory}` !== "Desert") {
+  else if (country !== '' && food === '' && `${mealData.meals[0].strCategory}` !== "Dessert") {
     description = `${mealData.meals[0].strCategory}`;
     printResult(mealData);
   }
@@ -119,10 +119,10 @@ function printResult(mealData) {
 let zeroResults = null;
 
 function checkIfZeroResults() {
-  if (countItems === itemsTotal && $('.append-results').html() === '' && food !== "Desert" && country !== '') {
+  if (countItems === itemsTotal && $('.append-results').html() === '' && food !== "Dessert" && country !== '') {
     zeroResults = `${country} ${food} Dishes`;
     printZeroResults();
-  } else if (countItems === itemsTotal && $('.append-results').html() === '' && food === "Desert") {
+  } else if (countItems === itemsTotal && $('.append-results').html() === '' && food === "Dessert") {
     zeroResults = `${country} Desserts`;
     printZeroResults();    
   } else {
@@ -139,13 +139,13 @@ let resultsType = null;
 
 function checkNumberOfResults() {
   $('section').addClass('section-padding');
-  if (resultsTotal === 1 && food !== "Desert") {
+  if (resultsTotal === 1 && food !== "Dessert") {
     resultsType = `${country} ${food} Dish`;
-  } else if (resultsTotal === 1 && food === "Desert") {
+  } else if (resultsTotal === 1 && food === "Dessert") {
     resultsType = `${country} Dessert`;
-  } else if (resultsTotal > 1 && food === "Desert") {
+  } else if (resultsTotal > 1 && food === "Dessert") {
     resultsType = `${country} Desserts`;
-  } else if (resultsTotal > 1 && food !== "Desert") {
+  } else if (resultsTotal > 1 && food !== "Dessert") {
     resultsType = `${country} ${food} Dishes`;
   } if (countItems === itemsTotal) {
     $('h2').addClass('lowerHeadings');
